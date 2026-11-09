@@ -1,0 +1,181 @@
+.navigations {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 30px;
+            top: 0;
+            margin-right: 60px;
+            
+        }
+                                  /* every nav-link style */
+        .nav-link {                     
+            color: black;
+            text-decoration: none;
+            font-size: 20px ;
+            
+        }
+                                    /* nav-link hover */
+        .nav-link:hover {
+            color: goldenrod;
+        }
+                                    /* h1 style in heading */
+        .heading-h1 {
+           font-size: 80px; 
+           color: goldenrod;
+        }
+                                   /* p style in heading */
+        .heading-p {
+            font-size: 50px;
+            color: goldenrod;
+            margin-left: 20px;
+        }
+                                    /* heading + index BG image */
+        .banner {
+            display: flex;
+            height: 600px;
+            background-image: url("./Assets/headingbgimage.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            
+        }
+                                /* every 1 place style */
+        .index-place {
+            height: 400px;
+            width: 270px;
+            border-style: solid;
+            border-color: goldenrod;
+            border-radius: 5px;
+            
+           
+        }
+                                /* every place image size */
+        .place-image {
+            width: 100%;
+            height: 40%;
+        }
+                              /* class of all places in index */
+        .index-places {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            
+        }
+
+        button {
+            display: flex;
+            margin-left: 30%;
+            background: goldenrod;
+            color: black;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            align-items: center;
+            width: 90px;
+            justify-content: center;
+            
+        }
+        button:hover {
+            background: burlywood;
+            color: black;
+           
+        }
+        
+        h1,p,b {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar {
+            background-color: antiquewhite;
+            top: 0;
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        
+        .TopPlacesBg {
+            background-color: antiquewhite;
+        }
+        
+   
+        .faq-bg {
+            background-color: white;
+        }
+
+        .AirplaneLogo {
+            width: 30px;
+            margin-left: 20px;
+        }
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedback-card {
+          
+            height: 50%;
+            width: 400px;
+            border-style: solid;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            
+
+}
+
+.feedback-image {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: black;
+}
+
+.destinationpage-place {
+            height: 400px;
+            width: 270px;
+            border-style: solid;
+            border-color: goldenrod;
+            float: left;
+            margin-top: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            
+}
+
+.destinationpage-places {
+
+    gap: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+   
+}
+
+input:focus {
+   background-color: goldenrod;
+}
+
+form {
+    height: 400px;
+    margin-left: 35%;
+}
+
+.travelzone-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: goldenrod;
+}
+
