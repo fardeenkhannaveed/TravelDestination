@@ -4,7 +4,7 @@ A multi-page travel destination website built with HTML and CSS as part of my we
 
 ## Live Demo
 
-https://fardeenkhannaveed.github.io/travel-destination/
+https://fardeenkhannaveed.github.io/TravelDestination/
 
 ## Pages
 
